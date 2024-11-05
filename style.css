@@ -665,3 +665,26 @@ animation: cursor 0.7s infinite, typing 20s steps(14) infinite;
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+/* Center-align the 'View Project' button */
+.service-info {
+    text-align: center;
+}
+
+.service-info .btn {
+    display: inline-block;
+    margin-top: 15px; /* Adjust as needed for spacing */
+    padding: 10px 20px;
+    background-color: #00ffff; /* Aqua color */
+    color: #000; /* Text color */
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.service-info .btn:hover {
+    background-color: #00cccc; /* Darker aqua shade for hover effect */
+}
