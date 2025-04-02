@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "frontend/**", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "https://portfolio-uhic.onrender.com/api/$1" },
+      { "src": "/(.*)", "dest": "/frontend/$1" },
+      { "src": "/(.*)", "dest": "/frontend/index.html" }
+    ]
+  }
