@@ -1,7 +1,7 @@
 /**
  * API client for interacting with the backend
  */
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://portfolio-uhic.onrender.com';
 
 /**
  * Fetch all projects from the API
