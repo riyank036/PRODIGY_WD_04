@@ -1,0 +1,35 @@
+{
+  "name": "prodigy_wd_04",
+  "version": "1.0.0",
+  "description": "✨ Features\r Dynamic Homepage: An engaging intro section with smooth animations and my professional introduction.\r Projects Section: Displays my key projects, including:\r Digital Clock: A real-time clock that updates every second.\r Stopwatch: A stopwatch with start, pause, reset, and lap features.\r Tic-Tac-Toe Game: A classic two-player game built with JavaScript.\r Weather App: A web app that displays real-time weather data for different cities.\r Education Timeline: Highlights my academic and professional milestones.\r Contact Form: Allows visitors to easily reach out with questions or collaboration requests.\r 🚀 Technologies Used\r HTML5 for the structure and content\r CSS3 for styling, animations, and responsive design\r JavaScript for interactivity and dynamic features\r Boxicons for stylish icons used throughout the site\r 📈 Future Enhancements\r Add a blog section to share insights and articles\r Include a downloadable resume option\r Implement more interactive animations for enhanced user engagement",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "seed": "node backend/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyank036/PRODIGY_WD_04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyank036/PRODIGY_WD_04/issues"
+  },
+  "homepage": "https://github.com/riyank036/PRODIGY_WD_04#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "node": "^23.11.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
