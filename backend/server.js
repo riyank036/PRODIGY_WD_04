@@ -8,7 +8,10 @@ const app = express();
 dotenv.config();
 
 // Middleware
-app.use(cors());
+// In your backend/server.js
+app.use(cors({
+  origin: ['https://your-vercel-domain.vercel.app', 'https://prodigy-wd-04-ashy.vercel.app']
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
