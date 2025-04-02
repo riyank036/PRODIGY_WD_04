@@ -9,7 +9,7 @@ const API_URL = 'https://portfolio-uhic.onrender.com/api';
  */
 async function getProjects() {
   try {
-    const response = await fetch(`${API_URL}/api/projects`);
+    const response = await fetch(`${API_URL}/projects`);
     
     if (!response.ok) {
       throw new Error(`Failed to fetch projects: ${response.status} ${response.statusText}`);
