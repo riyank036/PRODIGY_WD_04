@@ -195,12 +195,14 @@ transition: 0.4s easy-in-out;
 }
 .text-animation span{
     position: relative;
+    color: var(--main-color);
 }
-.text-animation span::before{
+/* .text-animation span::before{
 content: "Web Developer";
 color: var(--main-color);
-}
-.text-animation span::after{
+animation: words 20s infinite;
+} */
+/* .text-animation span::after{
 content: "";
 background-color: var(--bg-color);
 position: absolute;
@@ -209,12 +211,12 @@ height: 100%;
 border-left: 3px sold var(--bg-color) ;
 right: -8px;
 animation: cursor 0.7s infinite;
-}
-@keyframes cursor{
+} */
+/* @keyframes cursor{
     to{
         border-left: 2px solid var(--main-color);
     }
-}
+} */
 /* @keyframes words{
     0%,
     20%{
